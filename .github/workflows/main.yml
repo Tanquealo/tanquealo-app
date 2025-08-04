@@ -2,9 +2,9 @@ name: Expo CI/CD
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main, develop, 'feature/**', 'task/**']
   pull_request:
-    branches: [main, develop]
+    branches: [main, develop, 'feature/**']
 
 jobs:
   lint-and-type-check:
